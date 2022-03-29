@@ -21,7 +21,7 @@ super.onStart();
 Log.d(TAG, "ActivityTwo: onStart()");
 }
 @Override
-27
+
 protected void onResume() {
 super.onResume();
 Log.d(TAG, "ActivityTwo: onResume()");
