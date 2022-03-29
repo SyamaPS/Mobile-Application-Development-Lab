@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#F4BB44"
+tools:context=".p3_button_click">
+<TextView
+android:id="@+id/q1"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="20dp"
+android:text="who is the father of
+mathematics”
+android:textColor="@color/black"
+android:textSize="20dp" />
+<Button
+android:id="@+id/b1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/q1"
+android:layout_marginTop="5dp"
+android:text="Answer"
+android:textSize="20dp" />
+<TextView
+android:id="@+id/a1"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@+id/b1"
+android:layout_marginTop="5dp"
+android:text=""
+android:textColor="@color/black"
+android:textSize="20dp" />
+<TextView
+android:id="@+id/q2"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@+id/a2"
+android:layout_marginTop="20dp"
+android:text="who is the father of
+trigonometry"
+android:textColor="@color/black"
+7
+android:textSize="20dp" />
+<Button
+android:id="@+id/b2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/q2"
+android:layout_marginTop="5dp"
+android:text="Answer"
+android:textSize="20dp" />
+<TextView
+android:id="@+id/a2"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@+id/b2"
+android:layout_marginTop="5dp"
+android:text=""
+android:textColor="@color/black"
+android:textSize="20dp" />
+</RelativeLayout>
+<TextView
+android:id="@+id/q3"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@+id/a3"
+android:layout_marginTop="20dp"
+android:text="who is the father of
+science"
+android:textColor="@color/black
+android:textSize="20dp" />
+<Button
+android:id="@+id/b3"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/q3"
+android:layout_marginTop="5dp"
+android:text="Answer"
+android:textSize="20dp" />
+<TextView
+android:id="@+id/a3"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@+id/b3"
+android:layout_marginTop="5dp"
+android:text=""
+android:textColor="@color/black"
+android:textSize="20dp" />
+</RelativeLayout>
